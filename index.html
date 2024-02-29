@@ -568,16 +568,22 @@
       
         <div class="container-form">
           <p class="name-form">Subscribe</p>
-          <form class="contact-form"> 
-            <label class="label-subs" >
-              <input class="input-footer" type="email"  placeholder="E-mail" name="subscribe" >
+          <form class="contact-form" name="subscription">
+            <label class="input-footer">
+              <input
+                class="subscription-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </label>
-            <button type="submit" class="button-subs">Subscribe
-            </button>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
               <svg width="24" height="24" fill="white" class="icon-subscribe">
                 <use href="./images/send.svg#icon-send">
                 </use>
               </svg>  
+            </button>
           </form>
         </div>
   </footer>
