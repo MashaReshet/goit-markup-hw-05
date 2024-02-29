@@ -520,3 +520,69 @@ img {
 .footer-social-list-icon {
   fill: #f4f4fd;
 }
+.name-form {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.contact-form {
+  display: flex;
+  gap: 24px;
+}
+
+.label-subs {
+  display: flex;
+}
+.input-footer{
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.input-footer::placeholder {
+  color: white;
+}
+
+.input-footer:focus {
+  outline: none
+}
+
+.button-subs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 165px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subs:hover, .button-subs:focus {
+  background-color: #404BBF;
+}
+
+.icon-subscribe {
+  margin-left: 16px;
+}
