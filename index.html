@@ -598,52 +598,70 @@
         </div>
       </div>
     </footer>
+   <div class="modal">
     <div class="modal-wind">
-<div class="modal">
-  <p class="modal-p">
-    Leave your contacts and we will call you back
-  </p>
-<button type="button" class="modal-btn">
-<svg class="close" width="8" height="8">
-  <use href="./images/modal.svg#icon-close-black-18dp-2-1" />
-</svg>
-</button>
-<form>
-<div class="wind">
-  <label class="modal-lable" for="username">
-    Name
-  </label>
-  <div class="input">
-    <input type="text" class="input-modal"  id="username"/>
-    <svg class="modal-name" width="18" height="24">
-      <use href="./images/modal.svg#icon-person" />
-    </svg>
-    <label class="modal-lable" for="username">
-      Phone
-    </label>
-    <div class="input">
-      <input type="text" class="input-modal"  id="username"/>
-      <svg class="modal-name" width="18" height="24">
-        <use href="./images/modal.svg#icon-phone" />
-      </svg>
-      <label class="modal-lable" for="username">
-        Email
-      </label>
-      <div class="input">
-        <input type="text" class="input-modal"  id="username"/>
-        <svg class="modal-name" width="18" height="24">
-          <use href="./images/modal.svg#icon-email" />
-        </svg>
-  </div>
-  <label class="modal-lable" for="username">
-    Comment
-  </label>
-  <div class="input">
-    <input type="text" class="input-modal"  id="username"/>
-</div>
-</div>
-</div>
-</form>
+      <p class="modal-p">
+        Leave your contacts and we will call you back
+      </p>
+        <button class="btn-modal">
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/modal.svg#icon-close-black-18dp-2-1" />
+            </svg>
+        </button>
+      
+        <form>
+          <div class="modal-form">
+            <label class="label" for="user-name">
+             Name
+            </label>
+            <div class="input-modal">
+              <input class="input" id="user-name" name="user-name" type="text" />
+                <svg class="modal-icons" width="18" height="24" >
+                   <use href="./images/modal.svg#icon-person"></use>
+                </svg>
+            </div>
+          </div> 
+          <div class="modal-form">
+            <label class="label" for="user-name">
+             Phone
+            </label>
+            <div class="input-modal">
+              <input class="input" id="user-name" name="user-name" type="text" />
+                <svg class="modal-icons" width="18" height="24" >
+                   <use href="./images/modal.svg#icon-phone"></use>
+                </svg>            
+            </div>
+            <div class="modal-form">
+              <label class="label" for="user-name">
+               Email
+              </label>
+              <div class="input-modal">
+                <input class="input" id="user-name" name="user-name" type="text" />
+                  <svg class="modal-icons" width="18" height="24" >
+                     <use href="./images/modal.svg#icon-email"></use>
+                  </svg>                 
+              </div>
+              <div class="modal-form">
+                <label class="label" for=" user-comment">
+                 Comment
+                </label>
+                  <textrea class="textrea"  id="user-comment" placeholder="Text input" name="user-comment">
+                  </textrea>
+                    </div class="checkbox">                     
+                <div>
+              <input class="visually-hidden" type="checkbox" id="user-privacy"  name="user-privacy"  value="true"  />
+            <lable class="check" for="user-privacy">
+              <span class="check_box">
+                
+              </span>
+              I accept the terms and conditions of the
+            </lable>
+               </div>
+        </form>
+      
+
+
+    </div>
     </div>
   </body>
 </html>
