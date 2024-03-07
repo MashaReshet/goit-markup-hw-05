@@ -742,21 +742,25 @@ img {
 
 }
 .lable {
- font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.6);
+ font-size: 12px;
+  letter-spacing: -0.04em;
+  color:  #8e8f99;
+  line-height: 1.17; 
 }
 .privacy {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgba(17, 17, 17, 0.14);
-  border-radius: 6px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
   cursor: pointer;
   fill: transparent;
   margin-right: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-modal:checked
 + .lable .privacy {
