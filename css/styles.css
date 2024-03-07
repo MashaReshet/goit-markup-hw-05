@@ -743,7 +743,7 @@ img {
 }
 .lable {
  font-size: 12px;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
   color:  #8e8f99;
   line-height: 1.17; 
 }
@@ -767,6 +767,7 @@ img {
   background-color: #404bbf;
   fill: #F4F4FD;
   border-color: #404bbf;
+  border: none; 
 
 }
 .checkbox-modal:checked:focus
